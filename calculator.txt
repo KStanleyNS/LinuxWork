@@ -1,0 +1,13 @@
+#!/bin/bash
+#This is a simple adding calculator
+declare -i A
+declare -i B
+declare -i NUMTOTAL
+echo "Please enter the first number."
+read A
+echo "Please enter the second number."
+read B
+NUMTOTAL=$A+$B
+echo "The sum of the two numbers is:" $NUMTOTAL
+
+exit 0

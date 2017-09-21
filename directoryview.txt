@@ -1,0 +1,8 @@
+#!/bin/bash
+#This script reads a directory name, nothing fancy. Kinda messy, was my first script.
+echo "Which directory do you wish to view?"
+read dir
+echo "Your current directory is:" $MYDIR
+ls -l $MYDIR
+exit 0
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+#This is an IF/THEN example script that just reads a file name you ask it for.
+echo "Please enter a file name and path:"
+read MYFILE
+if test -f $MYFILE
+	then
+		echo $MYFILE "exists."
+	else
+		echo $MYFILE "does not exist."
+fi
+exit 0
